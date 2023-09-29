@@ -539,7 +539,7 @@ def print_node_info_and_compare_prediction(node_index, data, text, include_label
         print("No valid prediction could be made.")
 
 
-def process_and_compare_predictions(node_index_list, data, text, dataset, source, hop=2, 
+def process_and_compare_predictions(node_index_list, data, text, dataset_name, source, hop=2, 
                                     max_papers_1=20, max_papers_2=10, mode="title", 
                                     include_label=True, abstract_len=0, arxiv_style=False, 
                                     include_options=False, include_abs=False, zero_shot_CoT=False, 
@@ -589,7 +589,7 @@ def process_and_compare_predictions(node_index_list, data, text, dataset, source
                 try:
                     print(f"Processing index {i}...")
                     node_index = node_index_list[i]
-                    result = print_node_info_and_compare_prediction(node_index, data, text, dataset=dataset, source=source, 
+                    result = print_node_info_and_compare_prediction(node_index, data, text, dataset=dataset_name, source=source, 
                                                                     hop=hop, max_papers_1=max_papers_1, 
                                                                     max_papers_2=max_papers_2, mode=mode, 
                                                                     include_label=include_label, print_out=True, 
