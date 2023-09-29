@@ -1,0 +1,16 @@
+Abstract: We investigate the behaviour of attention in neural models of visually grounded speech trained on two languages: English and Japanese. Experimental results show that attention focuses on nouns and this behaviour holds true for two very typologically different languages. We also draw parallels between artificial neural attention and human attention and show that neural attention focuses on word endings as it has been theorised for human attention. Finally, we investigate how two visually grounded monolingual models can be used to perform cross-lingual speech-to-speech retrieval. For both languages, the enriched bilingual (speech-image) corpora with part-of-speech tags and forced alignments are distributed to the community for reproducible research.
+Title: models of visually grounded speech signal pay attention to nouns a bilingual experiment on english and japanese
+Do not provide your reasoning.
+Answer: 
+
+
+cs.CL
+
+
+Abstract: Independent set is a fundamental problem in combinatorial optimization. While in general graphs the problem is essentially inapproximable, for many important graph classes there are approximation algorithms known in the offline setting. These graph classes include interval graphs and geometric intersection graphs, where vertices correspond to intervals/geometric objects and an edge indicates that the two corresponding objects intersect. #R##N#We present dynamic approximation algorithms for independent set of intervals, hypercubes and hyperrectangles in $d$ dimensions. They work in the fully dynamic model where each update inserts or deletes a geometric object. All our algorithms are deterministic and have worst-case update times that are polylogarithmic for constant $d$ and $\epsilon> 0$, assuming that the coordinates of all input objects are in $[0, N]^d$ and each of their edges has length at least 1. We obtain the following results: #R##N#$\bullet$ For weighted intervals, we maintain a $(1+\epsilon)$-approximate solution. #R##N#$\bullet$ For $d$-dimensional hypercubes we maintain a $(1+\epsilon)2^{d}$-approximate solution in the unweighted case and a $O(2^{d})$-approximate solution in the weighted case. Also, we show that for maintaining an unweighted $(1+\epsilon)$-approximate solution one needs polynomial update time for $d\ge2$ if the ETH holds. #R##N#$\bullet$ For weighted $d$-dimensional hyperrectangles we present a dynamic algorithm with approximation ratio $(1+\epsilon)\log^{d-1}N$.
+Title: dynamic approximate maximum independent set of intervals hypercubes and hyperrectangles
+Do not provide your reasoning.
+Answer: 
+
+
+cs.DS
