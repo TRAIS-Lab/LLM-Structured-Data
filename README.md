@@ -18,10 +18,10 @@ We provide three main components:
 
 #### Statistics of  `ogbn-arxiv` and `arxiv-2023` datasets
 
-| Dataset   | #Nodes (Full Dataset) | #Edges (Full Dataset) | In-Degree/Out-Degree (Test Set) | Average Degree (Test Set) | Published Year (Test Set) |
-| --------- | --------------------- | --------------------- | ------------------------------- | ------------------------- | ------------------------- |
-| Ogbnarxiv | 169343                | 1166243               | 1.33/11.1                       | 12.43                     | 2019                      |
-| Arxiv     | 33868                 | 305672                | 0.16/10.6                       | 10.76                     | 2023                      |
+| Dataset      | #Nodes (Full Dataset) | #Edges (Full Dataset) | In-Degree/Out-Degree (Test Set) | Average Degree (Test Set) | Published Year (Test Set) |
+| ------------ | --------------------- | --------------------- | ------------------------------- | ------------------------- | ------------------------- |
+| `ogbn-arxiv` | 169343                | 1166243               | 1.33/11.1                       | 12.43                     | 2019                      |
+| `arxiv-2023` | 33868                 | 305672                | 0.16/10.6                       | 10.76                     | 2023                      |
 
 
 
