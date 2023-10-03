@@ -65,7 +65,14 @@ dict_keys(['title', 'abs', 'label', 'id'])
 
 If you find this repo helpful for your research, please consider citing our paper below.
 
-```
-
+```latex
+@misc{huang2023llms,
+      title={Can LLMs Effectively Leverage Graph Structural Information: When and Why}, 
+      author={Jin Huang and Xingjian Zhang and Qiaozhu Mei and Jiaqi Ma},
+      year={2023},
+      eprint={2309.16595},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 ```
 
